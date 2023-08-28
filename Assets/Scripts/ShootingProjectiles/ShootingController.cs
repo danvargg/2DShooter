@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.InputSystem;
+﻿using UnityEngine;
 
 /// <summary>
 /// A class which controlls player aiming and shooting
@@ -102,7 +99,7 @@ public class ShootingController : MonoBehaviour
             {
                 Fire();
             }
-        }   
+        }
     }
 
     /// <summary>

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -57,7 +56,7 @@ public class Enemy : MonoBehaviour
     /// </summary>
     private void LateUpdate()
     {
-        HandleBehaviour();       
+        HandleBehaviour();
     }
 
     /// <summary>
@@ -143,7 +142,7 @@ public class Enemy : MonoBehaviour
         if (GameManager.instance != null && !GameManager.instance.gameIsOver)
         {
             GameManager.instance.IncrementEnemiesDefeated();
-        }       
+        }
     }
 
     /// <summary>
@@ -178,7 +177,7 @@ public class Enemy : MonoBehaviour
     protected virtual Vector3 GetDesiredMovement()
     {
         Vector3 movement;
-        switch(movementMode)
+        switch (movementMode)
         {
             case MovementModes.FollowTarget:
                 movement = GetFollowPlayerMovement();

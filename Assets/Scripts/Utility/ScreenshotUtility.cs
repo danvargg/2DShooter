@@ -20,9 +20,8 @@
  * Last Updated: January 1, 2021
  */
 
-using UnityEngine;
-using System.Collections;
 using System.IO; // included for access to File IO such as Directory class
+using UnityEngine;
 using UnityEngine.InputSystem; // included for using the new Unity Input System
 
 /// <summary>

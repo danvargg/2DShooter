@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.InputSystem;
+﻿using UnityEngine;
 
 /// <summary>
 /// Class which handles camera movement
@@ -90,7 +87,7 @@ public class CameraController : MonoBehaviour
             Vector3 desiredCameraPosition = ComputeCameraPosition(targetPosition, mousePosition);
 
             transform.position = desiredCameraPosition;
-        }      
+        }
     }
 
     /// <summary>

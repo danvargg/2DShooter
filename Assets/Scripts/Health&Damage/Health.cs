@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// This class handles the health state of a game object.
@@ -208,7 +205,7 @@ public class Health : MonoBehaviour
         else
         {
             HandleDeathWithoutLives();
-        }      
+        }
     }
 
     /// <summary>
